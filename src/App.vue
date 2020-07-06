@@ -74,16 +74,16 @@ header {
   top: 50%;
   left: 10vw;
   transform: translateY(-50%);
-  width: 35%;
+  width: 35vw;
 
   .text-container {
     .first-text {
-      font-size: 4rem;
+      font-size: 3.4vw;
       font-weight: bolder;
     }
 
     .second-text {
-      font-size: 3rem;
+      font-size: 2.4vw;
       font-weight: 300;
     }
   }
@@ -127,7 +127,7 @@ header {
 }
 
 .vue-typer {
-  font-size: 3rem;
+  font-size: 2.4vw;
   font-weight: 300;
 
   .custom.char.selected {
