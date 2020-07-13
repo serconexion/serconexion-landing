@@ -12,15 +12,24 @@
           <span class="first-text">¿Necesitas ayuda?</span>
           <br />
           <span class="second-text"
-            >Pide servicios mediante nuestra app, son
-          </span>
+            >Pide servicios mediante nuestra app, son&nbsp;</span
+          >
           <vue-typer
             :text="['confiables', 'de calidad', 'seguros', 'rápidos']"
           ></vue-typer>
         </div>
         <div class="icons-dock">
-          <div class="icon-container"><i class="fab fa-apple"></i></div>
-          <div class="icon-container"><i class="fab fa-android"></i></div>
+          <div class="icon-container">
+            <i class="fab fa-apple"></i>
+          </div>
+          <a
+            href="https://serconexion-web.s3.us-east-2.amazonaws.com/app-x86_64-release.apk"
+            download
+          >
+            <div class="icon-container">
+              <i class="fab fa-android"></i>
+            </div>
+          </a>
         </div>
       </div>
       <div class="device">
